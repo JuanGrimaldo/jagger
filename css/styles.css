@@ -1,0 +1,63 @@
+:root {
+    --oscuro: #222222;
+    --rojo: #ff5140;
+    --blanco: whitesmoke;
+}
+
+body,
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.8rem;
+    background-color: var(--oscuro);
+
+}
+
+
+/* Header */
+
+.hero_class{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-header img{
+    height: 15rem;
+    
+}
+
+/* Navbar */
+
+
+
+.navmenu-header{
+    background-color: var(--rojo);
+    height: 7rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navmenu-header a{
+    color: var(--blanco);
+    text-decoration: unset;
+    font-family: 'Arimo', sans-serif;
+}
