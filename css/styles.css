@@ -24,6 +24,8 @@ body {
 
 /* Header */
 
+
+
 .hero_class{
     display: flex;
     width: 100%;
@@ -60,4 +62,19 @@ body {
     color: var(--blanco);
     text-decoration: unset;
     font-family: 'Arimo', sans-serif;
+}
+
+
+
+
+/* Eventos */
+.eventos-banner{
+    display: flex;
+    justify-content: center;
+}
+.eventos-banner video{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    border: none;
 }
