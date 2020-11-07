@@ -22,12 +22,14 @@
     <meta name="msapplication-TileImage" content="fav-icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <title>Jagger</title>
+    <link rel="stylesheet" href="css/slider.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Bebas+Neue&family=Pacifico&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/zkreations/SheetSlider/master/dist/sheetslider.min.css" />
+
+
 </head>
 
 <body>
@@ -54,67 +56,63 @@
     </header>
 
     <section class="eventos">
+        <div class="h2-container">
+            <h2>Proximos Eventos</h2>
 
-        <!--Sheet Slider-->
-        <div class="sheetSlider sh--default">
-            <input id="s1" type="radio" name="slide1" checked />
-            <input id="s2" type="radio" name="slide1" />
-            <input id="s3" type="radio" name="slide1" />
-            <div class="sh__content">
+        </div>
 
-                <!-- Slider Item -->
-                <div class="sh__item">
-                    <img src="img/banner.png" alt="imgText" />
-                    <!-- Item Info -->
-                    <div class="sh__meta">
-                        <h4>Titulo1</h4>
-                        <span>Texto1</span>
-                    </div>
+        <div class="wrapper">
+            <input checked type=radio name="slider" id="slide1" />
+            <input type=radio name="slider" id="slide2" />
+            <input type=radio name="slider" id="slide3" />
+           
+
+            <div class="slider-wrapper">
+                <div class=inner>
+                    <article>
+                        
+                        <img src="img/slide-img01.jpg" />
+                    </article>
+
+                    <article>
+                        <
+                        <img src="img/slide-img02.jpg" />
+                    </article>
+
+                    <article>
+                        
+                        <img src="img/slide-img03.jpg" />
+                    </article>
+
                 </div>
+                <!-- .inner -->
+            </div>
+            <!-- .slider-wrapper -->
 
-                <!-- Slider Item -->
-                <div class="sh__item">
-                    <img src="img/banner.png" alt="imgText" />
-                    <!-- Item Info -->
-                    <div class="sh__meta">
-                        <h4>Titulo2</h4>
-                        <span>Texto2</span>
-                    </div>
-                </div>
+            <div class="slider-prev-next-control">
+                <label for=slide1></label>
+                <label for=slide2></label>
+                <label for=slide3></label>
 
-                <!-- Slider Item -->
-                <div class="sh__item">
-                    <img src="img/banner.png" alt="imgText" />
-                    <!-- Item Info -->
-                    <div class="sh__meta">
-                        <h4>Titulo3</h4>
-                        <span>Texto3</span>
-                    </div>
-                </div>
+            </div>
+            <!-- .slider-prev-next-control -->
 
-            </div><!-- .sh__content -->
+            <div class="slider-dot-control">
+                <label for=slide1></label>
+                <label for=slide2></label>
+                <label for=slide3></label>
 
-            <!--botones-->
-            <div class="sh__btns">
-                <label for="s1"></label>
-                <label for="s2"></label>
-                <label for="s3"></label>
-            </div><!-- .sh__btns -->
+            </div>
+            <!-- .slider-dot-control -->
+        </div>
 
-            <!--flechas-->
-            <div class="sh__arrows">
-                <label for="s1"></label>
-                <label for="s2"></label>
-                <label for="s3"></label>
-            </div><!-- .sh__arrows -->
-
-        </div><!-- .sheetSlider -->
 
     </section>
 
     <section class="menu">
 
     </section>
+
 
 
 </body>
