@@ -27,6 +27,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/zkreations/SheetSlider/master/dist/sheetslider.min.css" />
 </head>
 
 <body>
@@ -42,7 +43,7 @@
                 <a href="#">Eventos</a>
                 <a href="#">Menu</a>
                 <a href="#">Galeria</a>
-                <a href="#">Contactanos</a>
+                <a href="#">Contáctenos</a>
             </nav>
         </div>
 
@@ -53,6 +54,61 @@
     </header>
 
     <section class="eventos">
+
+        <!--Sheet Slider-->
+        <div class="sheetSlider sh--default">
+            <input id="s1" type="radio" name="slide1" checked />
+            <input id="s2" type="radio" name="slide1" />
+            <input id="s3" type="radio" name="slide1" />
+            <div class="sh__content">
+
+                <!-- Slider Item -->
+                <div class="sh__item">
+                    <img src="img/banner.png" alt="imgText" />
+                    <!-- Item Info -->
+                    <div class="sh__meta">
+                        <h4>Titulo1</h4>
+                        <span>Texto1</span>
+                    </div>
+                </div>
+
+                <!-- Slider Item -->
+                <div class="sh__item">
+                    <img src="img/banner.png" alt="imgText" />
+                    <!-- Item Info -->
+                    <div class="sh__meta">
+                        <h4>Titulo2</h4>
+                        <span>Texto2</span>
+                    </div>
+                </div>
+
+                <!-- Slider Item -->
+                <div class="sh__item">
+                    <img src="img/banner.png" alt="imgText" />
+                    <!-- Item Info -->
+                    <div class="sh__meta">
+                        <h4>Titulo3</h4>
+                        <span>Texto3</span>
+                    </div>
+                </div>
+
+            </div><!-- .sh__content -->
+
+            <!--botones-->
+            <div class="sh__btns">
+                <label for="s1"></label>
+                <label for="s2"></label>
+                <label for="s3"></label>
+            </div><!-- .sh__btns -->
+
+            <!--flechas-->
+            <div class="sh__arrows">
+                <label for="s1"></label>
+                <label for="s2"></label>
+                <label for="s3"></label>
+            </div><!-- .sh__arrows -->
+
+        </div><!-- .sheetSlider -->
 
     </section>
 
