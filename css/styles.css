@@ -61,18 +61,19 @@ body {
 .navmenu-header a{
     color: var(--blanco);
     text-decoration: unset;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2.3rem;
 }
 
 
 
 
 /* Eventos */
-.eventos-banner{
+.home-banner{
     display: flex;
     justify-content: center;
 }
-.eventos-banner video{
+.home-banner video{
     height: 75vh;
     display: flex;
     justify-content: center;
