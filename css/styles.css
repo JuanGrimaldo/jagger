@@ -17,6 +17,7 @@ html {
 body {
     font-size: 1.8rem;
     background-color: var(--oscuro);
+    color: var(--blanco);
 
 }
 
@@ -25,6 +26,9 @@ section {
     display: block;
 }
 
+h1,h2,h3,h4{
+    text-align: center;
+}
 h2 {
     color: var(--blanco);
     font-family: 'Pacifico', cursive;
@@ -32,6 +36,20 @@ h2 {
     font-size: 10rem;
     text-align: center;
 }
+
+h3{
+    font-size: 4rem; 
+    color: var(--blanco);
+    font-family: 'Pacifico', cursive;
+}
+
+
+h4{
+    font-size: 3.5rem; 
+    font-family: 'Pacifico', cursive;
+    color: var(--blanco);
+}
+
 
 
 .h2-container {
@@ -113,3 +131,40 @@ h2 {
 
 /* Menu */
 
+
+
+.heading-prog {
+    cursor: pointer;
+    background-color: var(--oscuro);
+    border-bottom: solid 1px #212121;
+    padding: 2rem;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.heading-prog:hover {
+
+    background-color: var(--rojo);
+    border-bottom: solid 1px #212121;
+}
+
+
+.tab-content {
+    display: none;
+}
+
+.left-content {
+    padding-left: 4rem;
+    padding-top: 4rem;
+    font-size: 3.75rem;
+}
+
+.right-content {
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+
+.img-custwidth {
+    padding-top: 4rem;
+    width: 512px;
+}
