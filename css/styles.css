@@ -334,3 +334,14 @@ legend {
     }
 
 }
+
+
+
+.info-contacto{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.info-contacto a{
+    text-decoration: unset;
+    color:var(--blanco);
+}
