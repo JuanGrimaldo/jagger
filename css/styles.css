@@ -345,3 +345,7 @@ legend {
     text-decoration: unset;
     color:var(--blanco);
 }
+
+.icono{
+    font-size: 5rem;
+}
