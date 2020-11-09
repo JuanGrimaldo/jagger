@@ -21,6 +21,10 @@ body {
     color: var(--blanco);
 
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
 
 section {
     margin: 3rem 0;
@@ -178,4 +182,18 @@ h4{
 .img-custwidth {
     padding-top: 4rem;
     width: 512px;
+}
+
+.lista-menu{
+    list-style:none;
+}
+
+.menu-item-precio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item-precio span{
+    color: var(--amarillo);
+    font-weight: bold;
 }
