@@ -54,6 +54,7 @@ h3 {
 }
 
 
+
 h4 {
     font-size: 3.5rem;
     font-family: 'Baskervville', serif;
@@ -255,7 +256,7 @@ legend {
 
 
 
-.button-redirect{
+.button-redirect {
     display: block;
     color: var(--oscuro);
     background-color: var(--amarillo);
@@ -264,4 +265,72 @@ legend {
     margin: 2rem auto;
     font-size: 3rem;
     padding: .5rem;
+}
+
+
+
+@media (max-width:780px) {
+    h2 {
+        font-size: 6rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+
+    .navmenu-header {
+        height: 5rem;
+    }
+
+
+    .hero_class {
+        display: flex;
+        width: 100%;
+        height: 10%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-header {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-header img {
+        height: 10rem;
+
+    }
+
+    .input-group {
+        width: 90%;
+    }
+
+
+    .input-group input {
+        display: block;
+        width: 80%;
+        height: 3rem;
+
+    }
+
+    .input-group textarea {
+        display: block;
+        width: 80%;
+        height: 3rem;
+
+    }
+
+
+    .label-form {
+        width: 20%;
+    }
+
+
+    .home-banner video {
+        width: 90%;
+        height: auto;
+    }
+
 }
