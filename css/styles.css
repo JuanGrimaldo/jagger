@@ -2,6 +2,7 @@
     --oscuro: #222222;
     --rojo: #ff5140;
     --blanco: whitesmoke;
+    --amarillo: #fbc944;
 }
 
 body,
@@ -31,7 +32,7 @@ h1,h2,h3,h4{
 }
 h2 {
     color: var(--blanco);
-    font-family: 'Pacifico', cursive;
+    font-family: 'Baskervville', serif;
     font-weight: lighter;
     font-size: 10rem;
     text-align: center;
@@ -40,13 +41,13 @@ h2 {
 h3{
     font-size: 4rem; 
     color: var(--blanco);
-    font-family: 'Pacifico', cursive;
+    font-family: 'Baskervville', serif;
 }
 
 
 h4{
     font-size: 3.5rem; 
-    font-family: 'Pacifico', cursive;
+    font-family: 'Baskervville', serif;
     color: var(--blanco);
 }
 
@@ -146,8 +147,18 @@ h4{
 
     background-color: var(--rojo);
     border-bottom: solid 1px #212121;
+    transition: all .3s ease-in-out;
 }
 
+.active-tab{
+    background-color: var(--amarillo);
+    border-bottom: solid 1px #212121;
+    transition: all .3s ease-in-out;
+}
+
+.active-tab h3{
+    color: var(--oscuro);
+}
 
 .tab-content {
     display: none;

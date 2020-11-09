@@ -27,7 +27,7 @@
 
     <link rel="stylesheet" href="css/slider.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Bebas+Neue&family=Pacifico&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Baskervville&family=Bebas+Neue&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -260,16 +260,32 @@
 
 
         beerLinkEl.addEventListener("click", function () {
-            openTab("BeerMenu")
+            openTab("BeerMenu");
+            beerLinkEl.classList.add("active-tab");
+            coctelLinkEl.classList.remove("active-tab");
+            licoresLinkE1.classList.remove("active-tab");
+            papicarLinkEl.classList.remove("active-tab");
         }, false);
         coctelLinkEl.addEventListener("click", function () {
-            openTab("CoctelesMenu")
+            openTab("CoctelesMenu");
+            coctelLinkEl.classList.add("active-tab");
+            beerLinkEl.classList.remove("active-tab");
+            licoresLinkE1.classList.remove("active-tab");
+            papicarLinkEl.classList.remove("active-tab");
         }, false);
         licoresLinkE1.addEventListener("click", function () {
-            openTab("licoresMenu")
+            openTab("licoresMenu");
+            licoresLinkE1.classList.add("active-tab");
+            beerLinkEl.classList.remove("active-tab");
+            coctelLinkEl.classList.remove("active-tab");
+            papicarLinkEl.classList.remove("active-tab");
         }, false);
         papicarLinkEl.addEventListener("click", function () {
-            openTab("papicarMenu")
+            openTab("papicarMenu");
+            papicarLinkEl.classList.add("active-tab");
+            beerLinkEl.classList.remove("active-tab");
+            coctelLinkEl.classList.remove("active-tab");
+            licoresLinkE1.classList.remove("active-tab");
         }, false);
     </script>
 
