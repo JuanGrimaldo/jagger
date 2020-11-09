@@ -47,10 +47,9 @@
             <!--Barra de navegacion-->
             <nav id="navbar" class="navmenu-header ">
                 <a href="#">Home</a>
-                <a href="#">Eventos</a>
-                <a href="#">Menu</a>
-                <a href="#">Galeria</a>
-                <a href="#">Contáctenos</a>
+                <a href="#eventos">Eventos</a>
+                <a href="#menu">Menu</a>
+                <a href="#contacto">Contáctenos</a>
             </nav>
         </div>
 
@@ -60,7 +59,7 @@
 
     </header>
 
-    <section class="eventos">
+    <section id="eventos" class="eventos">
         <div class="h2-container">
             <h2>Proximos Eventos</h2>
 
@@ -113,7 +112,7 @@
 
     </section>
 
-    <section class="menu">
+    <section id="menu" class="menu">
         <div class="h2-container">
             <h2>Menu</h2>
         </div>
@@ -345,7 +344,7 @@
 
 
     </section>
-
+<!--
 
     <section>
         <div class="h2-container">
@@ -354,12 +353,31 @@
         </div>
     </section>
 
+    -->
 
-    <section>
+    <section id="contacto">
         <div class="h2-container">
             <h2>Contactenos</h2>
+            <input type="text">
 
         </div>
+        <form action="mail/enviar.php" method="POST">
+            <legend>Envíanos tus comentarios.</legend>
+            <div class="input-group">
+                <label for="name" class="label-form">Nombre</label>
+                <input id="name" type="name" name="name" required placeholder="Ingresa tu nombre">
+            </div>
+
+            <div class="input-group">
+                <label for="email" class="label-form">Email</label>
+                <input id="email" type="email" name="email" required placeholder="Ingresa tu email">
+            </div>
+            <div class="input-group">
+                <label for="message" class="label-form">Mensaje</label>
+                <textarea id="message" name="message" required placeholder="Deja tus comentarios"></textarea>
+            </div>
+            <button type="submit" class="submit">Submit</button>
+        </form>
     </section>
 
 
